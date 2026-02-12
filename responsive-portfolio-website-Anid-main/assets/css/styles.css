@@ -465,6 +465,10 @@ animation: animateBlob 5s linear infinite;
     left: 0;
     top: 0;
     margin-inline: auto;
+    background: linear-gradient(180deg,
+                 hsla(240,100%,2%,0)60%,
+                 hsl(240,100%,2%)95%);
+
   }
 }
 
