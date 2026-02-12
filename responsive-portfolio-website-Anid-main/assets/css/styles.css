@@ -417,7 +417,11 @@ animation: animateBlob 5s linear infinite;
 }
 
 /* For medium devices */
-
+@media screen and (min-width:540px){
+  .home__container{
+    width: 460px;
+  }
+}
 
 /* For large devices */
 @media screen and (min-width:1150px){
