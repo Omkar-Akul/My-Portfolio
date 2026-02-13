@@ -410,6 +410,17 @@ animation: animateBlob 5s linear infinite;
 
 .about__image{
   position: relative;
+  justify-self: center;
+}
+
+.about__image .blob-animate:nth-child(1){
+  top: 1.5rem;
+  left: 1rem;
+}
+
+.about__image .blob-animate:nth-child(2){
+ right: -.5rem;
+  bottom: .5rem;
 }
 /*=============== PROJECTS ===============*/
 
