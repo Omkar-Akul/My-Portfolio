@@ -370,6 +370,10 @@ animation: animateBlob 5s linear infinite;
   overflow-y: clip;
 }
 
+.about__data .section__title{
+  margin-bottom: 1.5rem;
+}
+
 /*=============== PROJECTS ===============*/
 
 
