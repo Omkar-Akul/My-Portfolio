@@ -372,8 +372,17 @@ animation: animateBlob 5s linear infinite;
 
 .about__data .section__title{
   margin-bottom: 1.5rem;
+  text-align: initial;
 }
 
+.about__description{
+  font-size: var(--h2-font-size);
+  margin-bottom: 2rem;
+}
+
+.about__description b{
+  color: var(--first-color);
+}
 /*=============== PROJECTS ===============*/
 
 
