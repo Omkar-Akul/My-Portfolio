@@ -382,6 +382,7 @@ animation: animateBlob 5s linear infinite;
 
 .about__description b{
   color: var(--first-color);
+  font-weight: var(--font-semi-bold);
 }
 /*=============== PROJECTS ===============*/
 
