@@ -362,7 +362,13 @@ animation: animateBlob 5s linear infinite;
 
 
 /*=============== ABOUT ===============*/
-
+.about{
+  position: relative;
+}
+.about__container{
+  row-gap:3rem;
+  overflow-y: clip;
+}
 
 /*=============== PROJECTS ===============*/
 
