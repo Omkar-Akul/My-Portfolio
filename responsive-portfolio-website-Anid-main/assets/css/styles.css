@@ -422,6 +422,21 @@ animation: animateBlob 5s linear infinite;
  right: -.5rem;
   bottom: .5rem;
 }
+
+.about__perfil{
+  width: 220px;
+}
+
+.about__shadow{
+  width: 100%;
+  height: 258px;
+  position: absolute;
+  bottom: 0.9rem;
+  z-index: 1;
+  background: linear-gradient(180deg,
+              hsla(240,100%,2%,0)60%,
+              var(--body-color)95%);
+}
 /*=============== PROJECTS ===============*/
 
 
