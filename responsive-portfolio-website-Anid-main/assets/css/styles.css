@@ -364,6 +364,8 @@ animation: animateBlob 5s linear infinite;
   border: 3px solid var(--first-color);
   color: var(--title-color);
   padding: 1rem 2rem;
+  box-shadow: 0 8px 32px hsla(var(--hue),60%,64%,.5),
+              inset 8px -8px 30px var(--first-color-alt-2);
 }
 
 /*=============== ABOUT ===============*/
