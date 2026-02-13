@@ -359,7 +359,9 @@ animation: animateBlob 5s linear infinite;
 
 
 /*=============== BUTTON ===============*/
-
+.button{
+  background-color: var(--body-color);
+}
 
 /*=============== ABOUT ===============*/
 .about{
