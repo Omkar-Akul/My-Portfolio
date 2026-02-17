@@ -438,6 +438,22 @@ animation: animateBlob 5s linear infinite;
               var(--body-color)95%);
 }
 /*=============== PROJECTS ===============*/
+.projects .section__title{
+  text-align: initial;
+  margin-left: 1.5rem;
+}
+
+.projects__card{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.projects__card .blob{
+  
+}
 
 
 /* Swiper class */
