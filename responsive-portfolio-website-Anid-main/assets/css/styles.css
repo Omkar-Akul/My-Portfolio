@@ -505,7 +505,7 @@ z-index: -1;
   font-size: var(--small-font-size);
 }
 
-.projects__img{
+.projects__image{
   border-radius: 1.5rem;
 }
 
@@ -518,6 +518,13 @@ z-index: -1;
   border: 3px solid var(--first-color);
   border-radius: 50%;
   color: var(--title-color);
+  font-size: 2rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 3;
+  opacity: 0;
+  pointer-events: none;
 }
 /* Swiper class */
 
