@@ -487,6 +487,36 @@ z-index: -1;
   font-size: var(--h3-font-size);
 }
 
+.projects__data{
+  margin-block: 2rem;
+}
+
+.projects__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.projects__subtitle{
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+}
+
+.projects__description{
+  font-size: var(--small-font-size);
+}
+
+.projects__img{
+  border-radius: 1.5rem;
+}
+
+.projects__button{
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: var(--body-color);
+  
+}
 /* Swiper class */
 
 
