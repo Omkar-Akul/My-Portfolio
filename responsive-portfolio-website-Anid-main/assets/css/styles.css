@@ -525,6 +525,15 @@ z-index: -1;
   z-index: 3;
   opacity: 0;
   pointer-events: none;
+  transition: box-shadow .4s, opacity .4s ;
+}
+.projects__button:hover{
+  box-shadow:0 0 24px var(--first-color);
+}
+
+.projects__image:hover .projects__button{
+  opacity: 1;
+  pointer-events: initial;
 }
 /* Swiper class */
 
