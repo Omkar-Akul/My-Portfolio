@@ -61,6 +61,10 @@ tabs.forEach((tab)=> {
       //disable
       tabContents.forEach((content) => content.classList.remove('work-active'))
       tabs.forEach((t) => t.classList.remove('work-active'))
+
+      //active
+      tab.classList.add('work-active')
+      targetContent.classList.add('work-active')
   })
 })
 
