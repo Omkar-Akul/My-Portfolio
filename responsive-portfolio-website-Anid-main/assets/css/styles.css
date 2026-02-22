@@ -724,6 +724,22 @@ z-index: -1;
     width: 600px;
   }
   
+  .work__container{
+    grid-template-columns: 600px;
+  }
+  .work__area{
+    padding-left: 0;
+  }
+
+  .work__card{
+    grid-template-columns: repeat(2,270px);
+    justify-content: center;
+    column-gap: 3rem;
+  }
+  .work__line{
+    left: 0;right: 0;
+    margin-inline: auto;
+  }
 }
 /* For large devices */
 @media screen and (min-width:1150px){
@@ -861,6 +877,13 @@ z-index: -1;
  .projects__button{
   top: 1.5rem;
   right: 1.5rem;
+ }
+ .work__container{
+  grid-template-columns: 1050px;
+  row-gap: 3rem;
+ }
+ .work__content{
+  row-gap: 5rem;
  }
 }
 
