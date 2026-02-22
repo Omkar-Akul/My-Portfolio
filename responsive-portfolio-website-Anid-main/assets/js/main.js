@@ -50,7 +50,19 @@ const swiperProjects = new Swiper('.projects__swiper', {
 })
 
 /*=============== WORK TABS ===============*/
+const tabs = document.querySelectorAll('[data-target]'),
+      tabContents = document.querySelectorAll('[data-content]')
 
+tabs.forEach((tab)=> {
+  tab.addEventListener('click', () =>{
+    const targetSelector = tab.dataset.target,
+          targetContent = document.querySelector(targetSelector)
+
+      //disable
+      tabContents.forEach((content) => content.classList.remove('work-active'))
+      tabs.forEach((t) => t.classList.remove('work-active'))
+  })
+})
 
 /*=============== SERVICES ACCORDION ===============*/
 
