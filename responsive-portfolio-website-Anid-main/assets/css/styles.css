@@ -645,7 +645,19 @@ z-index: -1;
 }
 
 /*=============== SERVICES ===============*/
+.services__container{
+  row-gap: 2rem;
+}
 
+.services__card{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 3rem;
+  display: grid;
+  row-gap: 1.5rem;
+  overflow: hidden;
+}
 
 /* Hide services info */
 
