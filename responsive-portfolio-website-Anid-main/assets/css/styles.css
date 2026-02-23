@@ -669,6 +669,19 @@ z-index: -1;
   right: -7.75rem;
 }
 
+.services__data , .services__info{
+  position: relative;
+  z-index: 1;
+}
+.services__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .5rem;
+}
+
+.services__subtitle{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-regular);
+}
 /* Hide services info */
 
 
