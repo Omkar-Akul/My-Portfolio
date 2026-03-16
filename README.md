@@ -1,2 +1,2 @@
-This is my posrtfolio i made using HTML css and JavaScript 
+This is my posrtfolio i made using HTML CSS and JavaScript 
 deployed it on vercel
